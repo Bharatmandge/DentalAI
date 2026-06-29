@@ -1,0 +1,14 @@
+# Environments
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# Data (Ignore all heavy scans, but keep the folders)
+data/raw/*
+data/processed/*
+!data/raw/perfect_test_scan.nii.gz
+
+# Logs & Environment Variables
+logs/
+.env
